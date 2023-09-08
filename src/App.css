@@ -73,13 +73,16 @@ form {
   font-size: 3em;
   margin-top: 0;
   margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;  /* Add this line */
 }
+
 
 /* New styles for additional details */
 .weather-section p {
   font-size: 1.2em;
   margin: 10px 0;
   color: #333;
+  transition: all 0.3s ease-in-out;  /* Add this line */
 }
 
 /* Add some space around the form for better layout */
@@ -155,7 +158,9 @@ form {
 #outer-div {
   width: 100%;
   text-align: center;
+  transition: all 0.3s ease-in-out;  /* Add this line */
 }
+
 
 #gauge-chart1 {
   display: inline-block;
