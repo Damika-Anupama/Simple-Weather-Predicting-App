@@ -23,7 +23,7 @@ function App() {
     try {
       const API_KEY = "9a2e8ebb42f78cbc76941ac42dc13e9b";
       const result = await axios.get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`
       );
       setAllData({
         city: result.data.name,
