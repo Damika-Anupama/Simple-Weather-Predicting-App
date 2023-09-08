@@ -111,7 +111,7 @@ function App() {
       <footer className="app-footer">
         Damika Anupama made this app with <span className="heart">❤</span>
         <a
-          href="https://github.com/Damika-Anupama"
+          href="https://github.com/Damika-Anupama/Simple-Weather-Predicting-App"
           target="_blank"
           rel="noreferrer"
         >
