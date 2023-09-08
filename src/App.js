@@ -64,7 +64,7 @@ function App() {
     const percent = (tempInCelsius - minTemp) / (maxTemp - minTemp);
     return Math.min(Math.max(percent, 0), 1);
   };
-  const chartStyle = { width: '50%' }
+  const chartStyle = { width: "50%" };
   // the section ta in react for sections and the main tag for the main build
   // under the main we will have sections for the form and for display the weather details
   return (
@@ -108,6 +108,16 @@ function App() {
         <p>Humidity: {allData.humidity}%</p>
         {/* Add more fields as needed */}
       </section>
+      <footer className="app-footer">
+        Damika Anupama made this app with <span className="heart">❤</span>
+        <a
+          href="https://github.com/Damika-Anupama"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </footer>
     </main>
   );
 }

@@ -170,3 +170,25 @@ form {
   margin: 0 auto;
   padding: 3px;
 }
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4682b4;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.heart {
+  color: red;
+}
+
+.app-footer a {
+  color: white;
+  margin-left: 5px;
+  text-decoration: none;
+}
