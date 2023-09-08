@@ -142,3 +142,23 @@ form {
     background: linear-gradient(180deg, #1E90FF, #87CEEB);
   }
 }
+
+.weather-icon {
+  border-radius: 50%;  /* Makes the image round */
+  border: 4px solid #fff;  /* Adds a white border */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  /* Adds a shadow */
+  width: 100px;  /* Sets width */
+  height: 100px;  /* Sets height */
+  object-fit: cover;  /* Ensures the image covers the whole area */
+}
+
+#outer-div {
+  width: 100%;
+  text-align: center;
+}
+
+#gauge-chart1 {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
+}
