@@ -64,7 +64,7 @@ function App() {
     const percent = (tempInCelsius - minTemp) / (maxTemp - minTemp);
     return Math.min(Math.max(percent, 0), 1);
   };
-  const chartStyle = { width: "50%" };
+  const chartStyle = { width: "40%" };
   // the section ta in react for sections and the main tag for the main build
   // under the main we will have sections for the form and for display the weather details
   return (
@@ -89,10 +89,9 @@ function App() {
             alt="Weather Icon"
           />
         )}
-        <h1>
-          {allData.city}, {allData.country}
-        </h1>
-        <h2>{Math.round(allData.temperature - 273.15)}°C</h2>
+        <h3>
+          {allData.city}, {allData.country} - {Math.round(allData.temperature - 273.15)}°C
+        </h3>
         <div id="outer-div">
           <GaugeChart
             id="gauge-chart1"
